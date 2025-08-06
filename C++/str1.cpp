@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
     // string str;
     // getline(cin, str);
     // cout << str;
@@ -125,12 +125,41 @@ int main()
 
     //--->do while loop
 
-    int money=10;
-    do
-    {
-        cout<<"Buy BMW"<<endl;
-    } while (money>10000000000);
-    
-    return 0;
+    // int money=10;
+    // do
+    // {
+    //     cout<<"Buy BMW"<<endl;
+    // } while (money>10000000000);
+    //---->functions
 
-}
+
+// #include <iostream>
+// using namespace std;
+// void sum(int a,int b){
+//     cout<<"The sum of two numbers is: "<<a+b<<endl;
+// }
+// void minimum (int a,int b){
+// if(a>b){
+//     cout<<a<<" is greater than "<<b;
+// }
+// else if(a<b){
+//     cout<<b <<" is greater than "<<a;
+// }
+// else{
+//     cout<<"Either equal or invalid";
+// }
+// }
+// int main(){ 
+// int num1,num2;
+// cout<<"Enter the two numbers: ";
+// cin>>num1>>num2;
+// sum(num1,num2);
+// int minimum= min(num1,num2);
+// cout<<"Minimum: "<<minimum;
+// minimum(num1,num2);
+// return 0;
+// }
+
+
+
+
