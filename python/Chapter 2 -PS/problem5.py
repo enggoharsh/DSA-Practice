@@ -1,0 +1,5 @@
+a=int(input("Enter the number 1: "))
+d=int(input("Enter the number 1: "))
+c=int(input("Enter the number 1: "))
+avg=float((a+d+c)/3)
+print("the average of the entered number is :",avg)
