@@ -8,6 +8,6 @@ with open("file.log","r")as f:
     content = f.read()
 
 if "Python" in content:
-    print("Yes!")
+    print("YES")
 else:
     print("NO")
