@@ -1,4 +1,0 @@
-Python 3.10.14
-VS Code
-Vivado
-XILINIX
