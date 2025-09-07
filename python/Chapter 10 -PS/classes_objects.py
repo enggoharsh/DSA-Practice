@@ -1,12 +1,26 @@
 '''
 =====classes and objects=====
 '''
+class programmer():          # class is been created
+    branch = "ECE"
+    # university ="SMVDU"        ------> class attributes
 
-class Employee():          # class is been created
-    name = "Harsh" 
-    entry_no = "23bec027"
-    age = 21
+    def getInfo(self):
+        print(f"{self.salary} is salary of {self.name} and his favourite language is {self.lan}")
+
+harsh = programmer()  
+harsh .salary = 120000000
+harsh.lan = "C++"   
+harsh.name= "HARSH"     #two objects harsh and aryan made out from class
+# harsh.name = "Harsh"           --->instance(object) attributes        
+aryan = programmer()
+harsh.getInfo()
 
 
-harsh = Employee()         #two objects harsh and aryan made out from class
-aryan = Employee()
+# Notes: 
+
+#class attributes: attributes which belongs to a particular class
+#instance(object) attributes: attributes which belongs to a particular instance(object)
+
+
+
