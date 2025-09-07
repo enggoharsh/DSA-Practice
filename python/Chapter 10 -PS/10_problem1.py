@@ -9,8 +9,17 @@ class Programmer:
         self.id = id
         print(f"salary of employee with id: {id} is {salary}")
 
-id = int(input("Enter the id of employee:"))
-salary = input("Enter the salary of employee:")
+salary = []
+id = []
+for i in range(1,6):
+    id_entry = int(input("Enter the id of employee:"))
+    id.append(id_entry)
 
-harsh = Programmer(id,salary)
-aryan = Programmer(id,salary)
+    salary_entry = input("Enter the salary of employee:")
+    salary.append(salary_entry)
+
+e1 = Programmer(id[0],salary[0])
+e2 = Programmer(id[1],salary[1])
+e3 = Programmer(id[2],salary[2])
+e4 = Programmer(id[3],salary[3])
+e5 = Programmer(id[4],salary[4])
