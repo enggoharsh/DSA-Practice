@@ -22,5 +22,9 @@ harsh.getInfo()
 #class attributes: attributes which belongs to a particular class
 #instance(object) attributes: attributes which belongs to a particular instance(object)
 
+# if  we dont need to use any object property in a method then we mark it as 
+# staticmethod(@staticmethod) 
+
+
 
 
