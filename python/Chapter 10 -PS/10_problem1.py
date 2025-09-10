@@ -7,7 +7,7 @@ class Programmer:
     def __init__(self,id, salary):
         self.salary = salary
         self.id = id
-        print(f"salary of employee with id: {id} is {salary}")
+        print(f"Employee working in {self.company} with id: {id} paid salary of Rs. {salary}")
 
 salary = []
 id = []
