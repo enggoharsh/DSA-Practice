@@ -5,8 +5,16 @@ class Employee:
 
 
 
-class Programmer(Employee):
+class Programmer:           # inheriting values from base class Employee::::::::
     def __init__(self):
         print(self.revenue)
 
-harsh  = Programmer()
+
+# multiple inheritance =========>
+class PythonDev(Programmer,Employee):
+    a = 3
+
+
+
+harsh = PythonDev()
+print(harsh.company)
