@@ -13,3 +13,4 @@ class Calculator:
 
 number = int(input("Enter the number:"))
 Calc1 = Calculator(number)
+

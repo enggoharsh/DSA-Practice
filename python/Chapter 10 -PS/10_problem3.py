@@ -6,5 +6,9 @@ class Check_on_Attributes:
 
 
 check_object = Check_on_Attributes()
+print(check_object.a)
 check_object.a = 0
 print(check_object.a)
+
+
+#========attribute will not change but object attribute has more preference over class attribute======
